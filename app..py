@@ -25,6 +25,7 @@ if submit:
         "ma_14": float(ma_14),
         "hl_range": float(hl_range),
         "volume_mcap_ratio": float(volume_mcap_ratio),
+        "dataset_path": "dataset.csv",
     }
     with st.spinner("Predicting..."):
         try:
