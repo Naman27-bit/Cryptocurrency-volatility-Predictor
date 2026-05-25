@@ -37,4 +37,3 @@ if submit:
             st.error(f"Prediction failed: {e}")
 
 st.caption("This UI uses engineered features (same 5 inputs as training: volatility_7, ma_7, ma_14, hl_range, volume_mcap_ratio).")
-
