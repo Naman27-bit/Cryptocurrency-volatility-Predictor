@@ -1,6 +1,8 @@
 from typing import Dict, Optional
 
 from fastapi import FastAPI
+app = FastAPI()
+
 from pydantic import BaseModel, Field
 
 from app_service.model_service import predict_from_engineered_features
