@@ -5,7 +5,7 @@ st.set_page_config(page_title="Crypto Volatility Predictor", layout="wide")
 
 st.title("Crypto Volatility Predictor")
 
-api_url = st.sidebar.text_input("FastAPI URL", value="https://cryptocurrency-volatility-predictor-2.onrender.com")
+api_url = st.sidebar.text_input("FastAPI URL", value="https://cryptocurrency-volatility-predictor-2.onrender.com/predict")
 
 st.sidebar.markdown("### Enter The Appropriate Input")
 
