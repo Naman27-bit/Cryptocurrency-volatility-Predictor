@@ -7,7 +7,7 @@ st.title("Crypto Volatility Predictor")
 
 api_url = st.sidebar.text_input("FastAPI URL", value="http://127.0.0.1:8000/predict")
 
-st.sidebar.markdown("### Input engineered features")
+st.sidebar.markdown("### Enter The Appropriate Input")
 
 with st.sidebar.form("predict_form"):
     volatility_7 = st.number_input("volatility_7", value=0.0, format="%.10f")
@@ -16,7 +16,7 @@ with st.sidebar.form("predict_form"):
     hl_range = st.number_input("hl_range", value=0.0, format="%.10f")
     volume_mcap_ratio = st.number_input("volume_mcap_ratio", value=0.0, format="%.10f")
 
-    submit = st.form_submit_button("Predict")
+    submit = st.form_submit_button(" Click To Predict")
 
 if submit:
     payload = {
