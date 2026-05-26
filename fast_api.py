@@ -51,4 +51,3 @@ def predict(req: PredictRequest):
         engineered, dataset_path=dataset_path
     )
     return PredictResponse(predicted_volatility_14=pred)
-
