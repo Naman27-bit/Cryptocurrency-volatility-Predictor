@@ -5,7 +5,7 @@ st.set_page_config(page_title="Crypto Volatility Predictor", layout="wide")
 
 st.title("Crypto Volatility Predictor")
 st.caption("Predicting 14-day volatility of a cryptocurrency based on engineered features.")
-image_url = "https://www.shutterstock.com/shutterstock/photos/2007979031/display_1500/stock-vector-bitcoin-cryptocurrency-in-a-futuristic-style-with-candlestick-price-pattern-background-digital-2007979031.jpg"
+image_url = "https://www.shutterstock.com/shutterstock/photos/2591877931/display_1500/stock-photo-best-crypto-exchanges-2591877931.jpg"
 st.image(image_url,width=700)
 api_url = st.sidebar.text_input("FastAPI URL", value="https://cryptocurrency-volatility-predictor-2.onrender.com/predict")
 
