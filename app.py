@@ -21,7 +21,7 @@ with st.sidebar.form("predict_form"):
     submit = st.form_submit_button(" Click To Predict")
 with st.expander("about us"):
     st.write("""
-    **Crypto Volatility Predictor** is a project developed by a team of data scientists and cryptocurrency enthusiasts. Our mission is to provide accurate and actionable insights into the volatility of cryptocurrencies, helping traders and investors make informed decisions. We leverage advanced machine learning techniques and a comprehensive dataset to predict future volatility based on historical trends and engineered features. Our goal is to empower users with the tools they need to navigate the dynamic world of cryptocurrency trading with confidence.
+    **Crypto Volatility Predictor** is a project developed by a team of Mr.Naman Kumar. My mission is to provide accurate and actionable insights into the volatility of cryptocurrencies, helping traders and investors make informed decisions.I leverage advanced machine learning techniques and a comprehensive dataset to predict future volatility based on historical trends and engineered features. My goal is to empower users with the tools they need to navigate the dynamic world of cryptocurrency trading with confidence.
     """)    
 
 with st.expander("Developer"):
