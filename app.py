@@ -6,7 +6,7 @@ st.set_page_config(page_title="Crypto Volatility Predictor", layout="wide")
 st.title("Crypto Volatility Predictor")
 st.caption("Predicting 14-day volatility of a cryptocurrency based on engineered features.")
 image_url = "https://www.shutterstock.com/shutterstock/photos/2591877931/display_1500/stock-photo-best-crypto-exchanges-2591877931.jpg"
-st.image(image_url,width=700)
+st.image(image_url,width=500)
 api_url = st.sidebar.text_input("FastAPI URL", value="https://cryptocurrency-volatility-predictor-2.onrender.com/predict")
 
 st.sidebar.markdown("### Enter The Appropriate Input")
@@ -21,7 +21,7 @@ with st.sidebar.form("predict_form"):
     submit = st.form_submit_button(" Click To Predict")
 with st.expander("about us"):
     st.write("""
-    **Crypto Volatility Predictor** is a project developed by a team of Mr.Naman Kumar. My mission is to provide accurate and actionable insights into the volatility of cryptocurrencies, helping traders and investors make informed decisions.I leverage advanced machine learning techniques and a comprehensive dataset to predict future volatility based on historical trends and engineered features. My goal is to empower users with the tools they need to navigate the dynamic world of cryptocurrency trading with confidence.
+    **Crypto Volatility Predictor** is a project developed by  Mr.Naman Kumar. My mission is to provide accurate and actionable insights into the volatility of cryptocurrencies, helping traders and investors make informed decisions.I leverage advanced machine learning techniques and a comprehensive dataset to predict future volatility based on historical trends and engineered features. My goal is to empower users with the tools they need to navigate the dynamic world of cryptocurrency trading with confidence.
     """)    
 
 with st.expander("Developer"):
