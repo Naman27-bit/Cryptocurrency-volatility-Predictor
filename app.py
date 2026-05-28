@@ -26,7 +26,7 @@ with st.expander("about us"):
 
 with st.expander("Developer"):
     st.write("""
-    **Developer**: [Naman Kumar]
+    **Developer**: [Mr.Naman Kumar]
     
     **GitHub**: [https://github.com/Naman27-bit]
     **Email**: [namankumar1170@gmail.com]
