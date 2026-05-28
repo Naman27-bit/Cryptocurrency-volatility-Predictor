@@ -60,7 +60,7 @@ with st.sidebar.form("predict_form"):
     hl_range            = st.number_input("hl_range",            value=0.0, format="%.10f")
     volume_mcap_ratio   = st.number_input("volume_mcap_ratio",   value=0.0, format="%.10f")
 
-    submit = st.form_submit_button("🔮 Click To Predict")
+    submit = st.form_submit_button(" Click To Predict")
 
 # ─── About & Developer ────────────────────────────────────────────────────────
 with st.expander("About Us"):
